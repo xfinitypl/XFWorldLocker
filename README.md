@@ -28,26 +28,6 @@ Advanced world management plugin for CosmicSMP developed for PaperSpigot 1.21.5
 - **Damage prevention**: Explosions cannot break blocks
 - **Creative exception**: If there's a creative player nearby, explosions work normally
 
-## 📁 Project Structure
-
-```
-src/main/java/net/cosmicsmp/xfworldlocker/
-├── XFWorldLocker.java                    # Main plugin class
-├── commands/
-│   └── WorldLockerCommand.java           # Plugin commands
-├── listeners/
-│   ├── BlockListener.java               # Block control
-│   ├── EntityListener.java              # Entity control
-│   ├── ExplosionListener.java           # Explosion control
-│   ├── PlayerInteractListener.java      # Interaction control
-│   └── PlayerMoveListener.java          # Movement control
-├── managers/
-│   ├── ConfigManager.java               # Configuration management
-│   └── WorldManager.java                # World management
-└── model/
-    └── WorldConfig.java                  # Data model
-```
-
 ## ⚙️ Configuration
 
 ### config.yml
